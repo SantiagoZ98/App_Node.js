@@ -23,15 +23,16 @@ git clone https://github.com/SantiagoZ98/App_Node.js.git
 
 Before running the container, you need to pull the Docker image. Use the following command to do so:
 
-
+docker pull santiagozurita26/suma-app
 
 3. Run the Docker Container
 
 After pulling the image, run the Docker container using this command:
 
-
+docker run -p 3000:3000 suma-app
 
 4. Access the Application
 
 Once the container is running, you can access the application by navigating to the following URL in your web browser:
       
+http://localhost:3000
